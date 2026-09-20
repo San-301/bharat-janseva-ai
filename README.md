@@ -37,8 +37,6 @@ graph TD
     DB --> Q_LOGS[ citizen_queries ]
     DB --> F_LOGS[ fraud_logs Audit Trail ]
 
----
-
 ## 🚀 Key Features
 
 * **AWS Strands Agents SDK Orchestration:** Function calling and tool routing powered by `from strands import Agent, tool`.

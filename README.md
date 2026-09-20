@@ -32,6 +32,7 @@ graph TD
     TOOLS --> DB[( SQLite Engine janseva_data.db )]
     DB --> Q_LOGS[ citizen_queries ]
     DB --> F_LOGS[ fraud_logs Audit Trail ]
+```
 
 ## 🚀 Key Features
 

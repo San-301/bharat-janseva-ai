@@ -1,7 +1,3 @@
-Your `README.md` file is well-structured, but there are **a few formatting issues** caused by nested code blocks and extra HTML/markdown line breaks (like `<br>` tags) inside the table and diagrams.
-
-Here is the **clean, corrected version** ready to be saved directly into `README.md`:
-
 ```markdown
 # 🇮🇳 Bharat-JanSeva AI
 

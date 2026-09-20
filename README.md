@@ -51,10 +51,6 @@ Over 60% of rural Indian citizens miss out on eligible government welfare benefi
                                     │ - fraud_logs (Audit Trail)   │
                                     └──────────────────────────────┘
 
-```
-
-```
-
 ---
 
 ## 🚀 Key Features
@@ -172,12 +168,3 @@ Open `http://localhost:8501` in your browser.
 * **AWS Integration:** Official open-source **AWS Strands Agents SDK** (`strands`).
 * **Cloud Cost:** **₹0 / $0** (100% local execution using Ollama and SQLite).
 * **AI Tool Disclosure:** Built using Cursor IDE, Claude, and ChatGPT.
-
-```
-
-### Key Formatting Fixes Applied:
-* Removed nested multi-backtick blocks around code diagrams and file trees.
-* Fixed broken markdown link syntax in `git clone`.
-* Fixed table cell spacing and removed orphan `<br>` elements that were distorting rendering.
-
-Your repository documentation is now clean and formatted for GitHub rendering.

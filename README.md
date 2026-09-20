@@ -25,31 +25,17 @@ Over 60% of rural Indian citizens miss out on eligible government welfare benefi
 
 ## 🏗 System Architecture
 
-
-            ┌─────────────────────────────────────────┐
-            │       Streamlit Dashboard (UI/UX)       │
-            └────────────────────┬────────────────────┘
-                                 │
-           ┌─────────────────────┴─────────────────────┐
-           │    SQLite Response Cache (<0.1s Load)     │
-           └─────────────────────┬─────────────────────┘
-                                 │
-           ┌─────────────────────┴─────────────────────┐
-           │       AWS Strands Agents SDK Loop         │
-           │     (Orchestrator & System Prompt)        │
-           └──────────────┬──────────────┬─────────────┘
-                          │              │
- ┌────────────────────────┴─┐          ┌─┴─────────────────────────┐
- │ Ollama (qwen2.5:0.5b)    │          │  Local Custom Tools       │
- │ http://localhost:11434   │          │  - @tool search_schemes   │
- └──────────────────────────┘          │  - @tool evaluate_fraud   │
-                                       └──────────────┬────────────┘
-                                                      │
-                                    ┌─────────────────┴────────────┐
-                                    │ SQLite Engine (janseva_data) │
-                                    │ - citizen_queries            │
-                                    │ - fraud_logs (Audit Trail)   │
-                                    └──────────────────────────────┘
+```mermaid
+graph TD
+    UI[ Streamlit Dashboard UI/UX ] --> CACHE[ SQLite Response Cache <0.1s Load ]
+    CACHE --> STRANDS[ AWS Strands Agents SDK Loop ]
+    STRANDS --> OLLAMA[ Local Ollama Model qwen2.5:0.5b ]
+    STRANDS --> TOOLS[ Local Custom Tools ]
+    TOOLS --> SEARCH[ @tool search_schemes ]
+    TOOLS --> FRAUD[ @tool evaluate_fraud_risk ]
+    TOOLS --> DB[( SQLite Engine janseva_data.db )]
+    DB --> Q_LOGS[ citizen_queries ]
+    DB --> F_LOGS[ fraud_logs Audit Trail ]
 
 ---
 

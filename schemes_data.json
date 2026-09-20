@@ -1,0 +1,127 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM-Kisan Samman Nidhi",
+    "category": "Agriculture",
+    "benefit_summary": "₹6,000 per year paid in 3 equal installments of ₹2,000 directly via Direct Benefit Transfer (DBT).",
+    "max_land_acres": 5.0,
+    "max_income_lakhs": 2.0,
+    "eligibility_criteria": "Small and marginal farmer families possessing cultivable land up to 2 hectares (approx. 5 acres).",
+    "required_docs": [
+      "Identity Proof (Official ID Card)",
+      "Land Ownership Record (Khata/Khasra/Patta)",
+      "Active Bank Account Passbook",
+      "e-KYC Verification"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://pmkisan.gov.in",
+    "vernacular_tags": ["kisan", "farmer", "kheti", "land", "rythu", "kisani", "krishi"]
+  },
+  {
+    "id": "mudra_shishu",
+    "name": "Pradhan Mantri MUDRA Yojana (Shishu Micro-Loan)",
+    "category": "Micro-Business",
+    "benefit_summary": "Collateral-free micro-business loans up to ₹50,000 for starting or expanding small enterprises.",
+    "max_land_acres": 999.0,
+    "max_income_lakhs": 3.0,
+    "eligibility_criteria": "Non-farm, non-corporate small business owners, shopkeepers, artisans, or street vendors above 18 years of age.",
+    "required_docs": [
+      "Identity Proof (Official ID Card)",
+      "Tax Registration / Business Proof",
+      "Business Premises Address Proof",
+      "2 Passport-size Photographs"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://www.mudra.org.in",
+    "vernacular_tags": ["business", "loan", "shop", "dukan", "vendor", "vyapar", "karobar"]
+  },
+  {
+    "id": "pm_vishwakarma",
+    "name": "PM Vishwakarma Scheme",
+    "category": "Artisan",
+    "benefit_summary": "₹15,000 digital e-voucher for modern toolkits + Collateral-free credit up to ₹3 Lakhs at 5% interest rate + Skill stipend.",
+    "max_land_acres": 999.0,
+    "max_income_lakhs": 2.5,
+    "eligibility_criteria": "Traditional artisans and craftspeople working with hands and tools across 18 family-based traditional trades.",
+    "required_docs": [
+      "Identity Proof (Official ID Card)",
+      "Ration Card / Family Proof",
+      "Bank Account Details",
+      "Trade Skill Self-Declaration / Certificate"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://pmvishwakarma.gov.in",
+    "vernacular_tags": ["artisan", "karigar", "tailor", "mason", "carpenter", "craftsman", "vishwakarma"]
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": "Ayushman Bharat - PM-JAY",
+    "category": "Healthcare",
+    "benefit_summary": "Health insurance coverage up to ₹5 Lakhs per family per year for secondary and tertiary hospital care.",
+    "max_land_acres": 999.0,
+    "max_income_lakhs": 2.5,
+    "eligibility_criteria": "Low-income families identified based on Socio-Economic Caste Census (SECC) data.",
+    "required_docs": [
+      "Identity Proof (Official ID Card)",
+      "Ration Card / Family Identification",
+      "Active Mobile Number"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://pmjay.gov.in",
+    "vernacular_tags": ["health", "hospital", "ilaj", "doctor", "medical", "insurance", "pmjay"]
+  },
+  {
+    "id": "pm_awas_gramin",
+    "name": "PM Awas Yojana (Gramin)",
+    "category": "Housing",
+    "benefit_summary": "Financial assistance of ₹1.20 Lakh in plains and ₹1.30 Lakh in hilly areas for constructing a pucca house.",
+    "max_land_acres": 999.0,
+    "max_income_lakhs": 1.8,
+    "eligibility_criteria": "Houseless families or living in kutcha/dilapidated houses in rural areas.",
+    "required_docs": [
+      "Identity Proof (Official ID Card)",
+      "Job Card / MGNREGA Number",
+      "Bank Account Passbook",
+      "Swachh Bharat Mission (SBM) Number"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://pmayg.nic.in",
+    "vernacular_tags": ["housing", "house", "makan", "ghar", "awas", "shelter", "pucca house"]
+  },
+  {
+    "id": "pm_surya_ghar",
+    "name": "PM Surya Ghar: Muft Bijli Yojana",
+    "category": "Energy",
+    "benefit_summary": "Subsidy up to ₹78,000 for installing rooftop solar power systems + up to 300 units of free electricity/month.",
+    "max_land_acres": 999.0,
+    "max_income_lakhs": 5.0,
+    "eligibility_criteria": "Indian households with suitable roof space and a valid electricity connection.",
+    "required_docs": [
+      "Electricity Bill (Recent)",
+      "Identity Proof (Official ID Card)",
+      "Bank Account Details",
+      "Roof Ownership Document"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://pmsuryaghar.gov.in",
+    "vernacular_tags": ["solar", "electricity", "bijli", "rooftop", "power", "sun", "light"]
+  },
+  {
+    "id": "nsap_pension",
+    "name": "National Social Assistance Programme (NSAP)",
+    "category": "Pension",
+    "benefit_summary": "Monthly pension ranging from ₹200 to ₹500 for elderly, widows, and persons with disabilities from BPL households.",
+    "max_land_acres": 999.0,
+    "max_income_lakhs": 1.0,
+    "eligibility_criteria": "Aged 60 years or above, widows aged 40+, or persons with severe disabilities belonging to Below Poverty Line (BPL) families.",
+    "required_docs": [
+      "Identity Proof (Official ID Card)",
+      "Age Proof / Birth Certificate",
+      "BPL Certificate / Ration Card",
+      "Disability Certificate (if applicable)"
+    ],
+    "official_fee": "Free (₹0)",
+    "official_portal": "https://nsap.nic.in",
+    "vernacular_tags": ["pension", "old age", "elderly", "widow", "vridha", "viklang", "bpl"]
+  }
+]

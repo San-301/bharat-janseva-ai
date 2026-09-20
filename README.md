@@ -1,4 +1,3 @@
-```markdown
 # 🇮🇳 Bharat-JanSeva AI
 
 **An Offline-First, Vernacular Government Scheme Navigator & Anti-Fraud Defender for Indian Citizens**
@@ -27,9 +26,6 @@ Over 60% of rural Indian citizens miss out on eligible government welfare benefi
 ## 🏗 System Architecture
 
 
-```
-
-```
             ┌─────────────────────────────────────────┐
             │       Streamlit Dashboard (UI/UX)       │
             └────────────────────┬────────────────────┘
@@ -185,5 +181,3 @@ Open `http://localhost:8501` in your browser.
 * Fixed table cell spacing and removed orphan `<br>` elements that were distorting rendering.
 
 Your repository documentation is now clean and formatted for GitHub rendering.
-
-```

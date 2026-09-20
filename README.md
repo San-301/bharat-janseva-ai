@@ -10,8 +10,6 @@ Built for the **WeMakeDevs Bharat Builds Tour — First Commit (Build It Track)*
 
 Over 60% of rural Indian citizens miss out on eligible government welfare benefits due to administrative jargon, language barriers, complex eligibility criteria, and lack of document readiness. Furthermore, vulnerable citizens are frequently targeted by illegal middlemen demanding processing fees (₹500–₹1,000) or requesting OTPs for applications that are officially **100% Free (₹0)**.
 
----
-
 ## 💡 Solution
 
 **Bharat-JanSeva AI** is an enterprise-grade, local-first welfare assistant that:
@@ -20,8 +18,6 @@ Over 60% of rural Indian citizens miss out on eligible government welfare benefi
 3. **Provides Vernacular Audio Guidance:** Generates native voice audio in **Hindi, Telugu, Tamil, Kannada, and English** for low-literacy accessibility.
 4. **Delivers High-Impact UI/UX:** Displays visual document readiness badges, clean status banners, and official `.gov.in` application links without text walls.
 5. **Runs 100% Offline & Free:** Executes locally on hardware with zero cloud inference costs or external API dependencies.
-
----
 
 ## 🏗 System Architecture
 
